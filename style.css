@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:rgb(50, 241, 241) ;
+    text-align: center;
+}
+.header{
+    background-color: rgb(7, 126, 126);
+    color: white;
+    text-align: center;
+    height:13vh;
+    font-size: 2rem;
+    top:0;
+}
+.container{
+    height: 70vh;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5vmin;
+}
+.box{
+    background-color:rgb(7, 126, 126);
+    color: rgb(255, 238, 0);
+    font-size: 4rem;
+    width: 18vmin;
+    height: 18vmin;
+    border: none;
+    border-radius: 2rem;
+}
+#rbtn{
+    background-color: rgb(7, 126, 126);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 2vmin;
+    width: 25vmin;
+    
+    font-size: 3rem;
+}
+.msgcon{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:2rem;
+}
+#nbtn{
+    background-color: rgb(7, 126, 126);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 2vmin;
+    width: 35vmin;
+    font-size: 2.5rem;
+}
+.msg{
+    font-size: 4rem;
+    color:rgb(255, 238, 0) ;
+}
+.hide{
+    display: none;
+}
